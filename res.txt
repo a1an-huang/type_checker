@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------
+Class Name: In
+Superclass Name: 
+Fields: 
+Constructors: 
+Methods: 
+METHOD: 1, scan_int, In, public, static, INT
+Method parameters: 
+Variable Table: 
+Method Body:
+Block([ 
+])
+METHOD: 2, scan_float, In, public, static, FLOAT
+Method parameters: 
+Variable Table: 
+Method Body:
+Block([ 
+])
+--------------------------------------------------------------------------
+Class Name: Out
+Superclass Name: 
+Fields: 
+Constructors: 
+Methods: 
+METHOD: 1, print, Out, public, static, VOID
+Method parameters: 1
+Variable Table: 
+VARIABLE: 1, i, formal, INT
+Method Body:
+Block([ 
+])
+METHOD: 2, print, Out, public, static, VOID
+Method parameters: 1
+Variable Table: 
+VARIABLE: 1, f, formal, FLOAT
+Method Body:
+Block([ 
+])
+METHOD: 3, print, Out, public, static, VOID
+Method parameters: 1
+Variable Table: 
+VARIABLE: 1, b, formal, BOOLEAN
+Method Body:
+Block([ 
+])
+METHOD: 4, print, Out, public, static, VOID
+Method parameters: 1
+Variable Table: 
+VARIABLE: 1, s, formal, STRING
+Method Body:
+Block([ 
+])
+--------------------------------------------------------------------------
+Class Name: IntList
+Superclass Name: Me
+Fields: 
+FIELD: 
+1, x, IntList, private, instance, INT
+FIELD: 
+2, y, IntList, private, instance, INT
+FIELD: 
+3, z, IntList, private, instance, BOOLEAN
+Constructors: 
+Methods: 
+METHOD: 1, main, IntList, public, static, VOID
+Method parameters: 
+Variable Table: 
+VARIABLE: 1, x, local, INT
+Method Body:
+Block([ 
+ Expr(Assign(Variable(1), ConstantInteger(7)))
+ , If(BinaryExpression(>, Variable(1), ConstantInteger(5)), IfElse(BinaryExpression(<, Variable(1), ConstantInteger(10)), Expr(MethodCall(Variable(-1), print, Arguments([ ConstantString("Boo") ] )), Expr(MethodCall(Variable(-1), print, Arguments([ ConstantString("Bleep") ] ))))
+])

@@ -1,0 +1,16 @@
+class IntList extends Me{
+    int x;
+    int y;
+    boolean z;
+
+    public static void main()
+    {   
+        int x;
+        x = 7;
+        if (x > 5)
+          if (x < 10)
+            Out.print("Boo");
+          else
+            Out.print("Bleep");
+    }
+}
